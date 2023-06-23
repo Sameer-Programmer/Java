@@ -23,7 +23,6 @@ public class Test18 {
        aeroplane.m1();
       aeroplane.m2();
      
-
       Helicofter helicofter = new Helicofter();
       helicofter.m1();
       helicofter.m3();
