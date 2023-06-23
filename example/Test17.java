@@ -24,7 +24,9 @@ public class Test17 {
         hopping.water();
         hopping.moving();
         hopping.jump();
-        System.out.println("My name is Frog");      
+        System.out.println("My name is Frog"); 
+        // printing the returning method to print the data inside the returing method.
+        System.out.println(hopping.moving());     
     }
     
 }
