@@ -1,3 +1,5 @@
+//Single Level Inheritance 
+
 class yemmiganur {
     public void m1(){
         System.out.println("from class yemmmiganur m1()");
@@ -18,6 +20,5 @@ public class Test16 {
         AndhraPradesh andhraPradesh = new AndhraPradesh();
         andhraPradesh.m1();
         andhraPradesh.m2();
-    }
-    
+    } 
 }
