@@ -27,7 +27,7 @@ class name Starts with Abstract keyword
 It Contains Abstract methods 
 we can not create objects with the class - we can create Objects with the help of subclass 
 # Encapsulation 
-Encapsulation is achieved by making class private - access through getters and setters
+Encapsulation is achieved by making class Variables  private - To access these Variables in other class we through to use get() method and to set the Values we have to use  set() Method.
 # Strings
 1. length of the string
 2. concatenation
