@@ -1,6 +1,6 @@
 # Java
 Basic-Core -Java Programs
-Simple -Hello World Programme
+Simple -Hello World Programme,
 variables, DataTypes, Declaration, Initialization 
 conditional Statements
 Loops- for, while, do-while 
