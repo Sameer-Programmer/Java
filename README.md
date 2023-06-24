@@ -20,7 +20,7 @@ Hybrid - Combination of Hierarchial and Multiple inheritance
 Method Overriding
 Run time Polymorphism 
 # Abstraction 
-class name Strats with Abstract keyword 
+class name Starts with Abstract keyword 
 It Contains Abstract methods 
 we can not create objects with the class - we can create Objects with the help of subclass 
 # Encapsulation 
