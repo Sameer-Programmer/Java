@@ -17,11 +17,17 @@ Hierarchical inheritance
 Multiple-inheritance 
 Hybrid - Combination of Hierarchial and Multiple inheritance 
 # Polymorphism 
-Method Overiding
+Method Overriding
 Run time Polymorphism 
 # Abstraction 
 class name Strats with Abstract keyword 
-It Contains Abstarct methods 
-we can not create objects with the class - we can create Objects with the helps of subclass 
+It Contains Abstract methods 
+we can not create objects with the class - we can create Objects with the help of subclass 
 # Encapsulation 
-Encapsulation achived by making class private - access through getters and setters
+Encapsulation is achieved by making class private - access through getters and setters
+# Strings
+1. length of the string
+2. concatenation
+3. equals keyword
+# this keyword
+To differentiate local and Instance variables - Especially when using a Constructor
