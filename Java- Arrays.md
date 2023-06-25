@@ -7,4 +7,5 @@
 
  * int a[] = new a{1,2,3,4,5};  //  Declaration in shortform
 
- Drawbacks in a Array 
+  # Drawbacks in a Array 
+  * Length of the Array is fixed
