@@ -22,28 +22,11 @@ class Forest extends Animal {
     }
 }
 
-
 public class Test32 {
     public static void main(String[] args) {
         Forest forest = new Forest();
         forest.green();
-       
-
-
-
-        
-
-        
-
-
-
-
-
-
-
-
-
-
+             
     }
  }
 
