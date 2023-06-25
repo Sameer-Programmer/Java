@@ -1,7 +1,10 @@
 # Arrays
-Array is a colection of elements of same datatype is called Arrays
+* Array is a colection of elements of same datatype is called Arrays
 
-Declaration of Array
+**Declaration of Array**
 ==========================================
-int a[] = new a[6];      // Normal 
-int a[] = new a{1,2,3,4,5};  //  Declaration in shortform
+ * int a[] = new a[6];   // Normal 
+
+ * int a[] = new a{1,2,3,4,5};  //  Declaration in shortform
+
+ Drawbacks in a Array 
