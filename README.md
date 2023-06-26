@@ -13,12 +13,12 @@ Basic-Core -Java Programs
 11.Constructor
 12.Constructor -Overloading 
 # inheritance 
-**Inheritance **
-inheritance - single 
-inheritance - Multi-level 
-Hierarchical inheritance
-Multiple-inheritance 
-Hybrid - Combination of Hierarchial and Multiple inheritance 
+
+* 1.inheritance - single 
+  2.inheritance - Multi-level 
+  3.Hierarchical inheritance
+  4.Multiple-inheritance 
+  5.Hybrid - Combination of Hierarchial and Multiple inheritance 
 # Polymorphism 
 Method Overriding
 Run time Polymorphism 
