@@ -1,4 +1,4 @@
-package org.example;
+//package org.example;
 
 public class Test4 {
     public static void main(String[] args) {
