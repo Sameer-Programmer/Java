@@ -34,3 +34,14 @@ Encapsulation is achieved by making class Variables  private - To access these V
 3. equals keyword
 # this keyword
 To differentiate local and Instance variables - Especially when using a Constructor
+# super_keyword
+ Super keyword we can use for 
+ * 1. For Printing Instance Variable
+   2. for calling methods
+   3. for Calling Constructor.
+* Calling instance Variable of Parent class to the immediate subclass
+1. we have to use inside  the print statement ---signature super.varialename;
+2. we can use super keyword  for to call in the Parent class method to the subclass method - we should use indside the subclass method only.
+3. we can super-Keyword to call the Constructor of Superclass to immediate subclass by signature super ();-- we should use this one inside the Subclass Constructor only
+4. suppose if we have the method , Constructor  in the parent class , To implement these  we should write Constructor part first , them only we have to implement method 
+  
