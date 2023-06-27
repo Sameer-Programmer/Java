@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test16",
+            "request": "launch",
+            "mainClass": "Test16",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test8",
+            "request": "launch",
+            "mainClass": "Test8",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test36",
+            "request": "launch",
+            "mainClass": "Test36",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
