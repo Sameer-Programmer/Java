@@ -6,8 +6,8 @@ class Rainbow {
 }
 class Antman extends Rainbow{
     Antman (){
-        this.Property = 30.80;
-        double TotalProperty = (this.Property + super.Property);
+        double Property2 = 30.80;
+        double TotalProperty = (Property2 + super.Property);
         System.out.println(TotalProperty);
     }
 }
