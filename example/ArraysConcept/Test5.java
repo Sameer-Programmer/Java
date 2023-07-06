@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ArraysConcept;
 
 import java.util.Arrays;
@@ -41,3 +42,18 @@ public class Test5 {
 
     }
 }
+=======
+package ArraysConcept;
+
+import java.util.ArrayList;
+
+public class Test5 {
+    public static void main(String[] args) {
+        ArrayList list = new ArrayList<>();
+        list.add("sameer");
+        list.add ("imran");
+        System.out.println(list);
+        System.out.println(list.size());
+    }
+}
+>>>>>>> a595a6de96452b5b7c145ab49960413461673ba5
