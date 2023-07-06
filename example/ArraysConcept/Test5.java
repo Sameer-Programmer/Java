@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package ArraysConcept;
 
 import java.util.Arrays;
@@ -11,20 +10,20 @@ import java.util.Arrays;
 5. sum and Product of Array
 6. Find duplicates in a Array
 7. Print with-out duplicates in a Array
- */
+*/
 public class Test5 {
     public static void main(String[] args) {
         int a [] = { 9,7,7,5,4,2,9,0,2,21,66,88,5,8,2,1,6,9};
         int n = a.length;
-        System.out.println("Length of the Array is   "+n);
+        System.out.println("Length of the Array is "+n);
         int sum = 0;
         int product = 1;
         for (int i =0; i<n; i++){
             sum = sum +a[i];
             product = product *a[i];
         }
-        System.out.println("sum of Arrays +     "+ sum);
-        System.out.println("Product of Arrays +     "+ product);
+        System.out.println("sum of Arrays + "+ sum);
+        System.out.println("Product of Arrays + "+ product);
 
         for (int i =0; i<n-1; i++){
             for (int j =0; j<n-1; j++){
@@ -37,23 +36,8 @@ public class Test5 {
         }
         String s1 = Arrays.toString(a);
         System.out.println(s1);
-        System.out.println("smallest Value in a Array is +      "+ a[0]);
-        System.out.println("Biggest Value in a Array is +      "+ a[n-1]);
+        System.out.println("smallest Value in a Array is + "+ a[0]);
+        System.out.println("Biggest Value in a Array is + "+ a[n-1]);
 
     }
 }
-=======
-package ArraysConcept;
-
-import java.util.ArrayList;
-
-public class Test5 {
-    public static void main(String[] args) {
-        ArrayList list = new ArrayList<>();
-        list.add("sameer");
-        list.add ("imran");
-        System.out.println(list);
-        System.out.println(list.size());
-    }
-}
->>>>>>> a595a6de96452b5b7c145ab49960413461673ba5
