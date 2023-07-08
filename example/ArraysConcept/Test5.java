@@ -39,5 +39,21 @@ public class Test5 {
         System.out.println("smallest Value in a Array is + "+ a[0]);
         System.out.println("Biggest Value in a Array is + "+ a[n-1]);
 
+        // Lets find Duplicates in a Array
+
+        for (int i = 0; i < n - 1; i++) {
+            if(a[i]==a[i+1]){
+                System.out.println(" found Duplicates     "+ a[i]);
+                i++;
+            }
+        }
+
+        // Lets find triples in a Array
+        for (int i = 0; i < n - 2; i++) {
+            if(a[i]==a[i+1] && a[i]==a[i+2]){
+                System.out.println(" found Triples     "+ a[i]);
+                i+=2;
+            }
+        }
     }
 }
