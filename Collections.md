@@ -25,9 +25,9 @@ A collection is a single Entity - Representing Multiple Objects
 * This Collections class contains a certain number of methods --Those methods we can use to perform Certain Operations on Collection Object.
 
 Collection Interface contains 3 Child interfaces 
-1.List -----interface 
-2.set ------interface
-3.Queue -----interface 
+* 1.List -----interface 
+* 2.set ------interface
+* 3.Queue -----interface 
 
 
 
