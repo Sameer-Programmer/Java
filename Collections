@@ -1,3 +1,6 @@
-#Collections
+# Collections
 Definition-- Group of objects -- is called Collection
-Collection is a single Entity - Representing Multiple Objects
+A collection is a single Entity - Representing Multiple Objects
+# Collection FrameWork
+In Java - To Represent Multiple -Objects in a single entity -- we need Classes and interfaces -- So the collection framework will provide us with these Classes and Object
+@ Arrays are  Not Growable -- They are fixed
