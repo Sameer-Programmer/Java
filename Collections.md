@@ -29,5 +29,12 @@ Collection Interface contains 3 Child interfaces
 * 2.set ------interface
 * 3.Queue -----interface 
 
+# List 
+1. List is a Collection, where we store the group of elements we go for List---
+2. when the insertion is Allowed, Duplicates are allowed we go with the List -----interface
+3. List interface is implemented with different classes
+4. a. Array List
+5. b. Linked List
+6. c. Vector -- This is we have something -- This is also another Kind of Collection -- This is extended from the class
 
 
