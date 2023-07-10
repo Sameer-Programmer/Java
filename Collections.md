@@ -27,14 +27,20 @@ A collection is a single Entity - Representing Multiple Objects
 Collection Interface contains 3 Child interfaces 
 * 1.List -----interface 
 * 2.set ------interface
-* 3.Queue -----interface 
+* 3.Queue -----interface
+* Link of Collections in tree Diagram 
+* https://gitmind.com/app/docs/mr2udasa
 
 # List 
 1. List is a Collection, where we store the group of elements we go for List---
 2. when the insertion is Allowed, Duplicates are allowed we go with the List -----interface
 3. List interface is implemented with different classes
-4. a. Array List
-5. b. Linked List
-6. c. Vector -- This is we have something -- This is also another Kind of Collection -- This is extended from the class
+4. a. Array List --- class
+5. b. Linked List ---- Class
+6. c. Vector -- This is we have something -- This is also another Kind of Collection -- This is extended from the Stack
+7. This Vector and Stack are called Legacy Classes in Java
+8. ![image](https://github.com/Sameer-Programmer/Java/assets/115461857/68ae6be9-78e0-4fac-8d58-0c34c6165f42)
+9. 
+
 
 
