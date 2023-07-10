@@ -40,7 +40,7 @@ Collection Interface contains 3 Child interfaces
 6. c. Vector -- This is we have something -- This is also another Kind of Collection -- This is extended from the Stack
 7. This Vector and Stack are called Legacy Classes in Java
 8. ![image](https://github.com/Sameer-Programmer/Java/assets/115461857/68ae6be9-78e0-4fac-8d58-0c34c6165f42)
-9. 
+   
 
 
 
