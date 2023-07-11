@@ -11,7 +11,7 @@ public class Assigment1 {
         list.add("1");
         list.add(1, "Apple");
         list.add("1"); // Duplicates Allowed
-        System.out.println(list.size()       +"                                  size from 1");
+        System.out.println(list.size()       +"                       size from 1");
         System.out.println(list +"            from 2");
         Collections.sort(list);
         System.out.println(list+"        collections");
@@ -24,11 +24,10 @@ public class Assigment1 {
         System.out.println(list+"            from 6");
         list.remove("@");
         System.out.println(list+"            from 7");
-
-       System.out.println(list.contains("welcome"+"            from 8")); // printing boolean statement true or false
+        System.out.println(list.contains("welcome"+"            from 8")); // printing boolean statement true or false
         System.out.println(list.get(0)+"            from 9");
         System.out.println(list.isEmpty());       // printing boolean statement true or false
-      //  list.clear();              // Clearing the content
+        //  list.clear();              // Clearing the content
         System.out.println(list+"            from 10");      // After clear
         System.out.println(list.isEmpty()+"            from 11");      // printing boolean statement true or false
        String s1=list.toString();
@@ -36,7 +35,7 @@ public class Assigment1 {
         Collections.sort(list,Collections.reverseOrder());
         System.out.println(list+"             reverse order from 13 ");
         list.clear(); // to clear elements in a List
-      System.out.println(list+"          from14  All cleared ");
+        System.out.println(list+"          from14  All cleared ");
         System.out.println(list.isEmpty()+"   Now the Collection is Empty         from 14");
 
     }
