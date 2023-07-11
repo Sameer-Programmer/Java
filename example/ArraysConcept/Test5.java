@@ -1,6 +1,6 @@
 package ArraysConcept;
 
-import java.util.Arrays;
+        import java.util.Arrays;
 
 /* Agenda to implement
 1.Declaration of Array
@@ -13,7 +13,7 @@ import java.util.Arrays;
 */
 public class Test5 {
     public static void main(String[] args) {
-        int a [] = { 9,7,7,5,4,2,9,0,2,21,66,88,5,8,2,1,6,9};
+        int a [] = { 9,8,7,7,7,5,4,10,9,0,2,21,66,88,5,8,2,1,6,19};
         int n = a.length;
         System.out.println("Length of the Array is "+n);
         int sum = 0;
@@ -39,5 +39,19 @@ public class Test5 {
         System.out.println("smallest Value in a Array is + "+ a[0]);
         System.out.println("Biggest Value in a Array is + "+ a[n-1]);
 
+
+        for (int i =0 ; i<n-1; i++){
+            for (int j = i+1; j<n-1; j++){
+                if (a[i]==a[j] && a[i] == a[i+2]) {
+                    System.out.println(" found triples " + a[i] );
+                    // return;
+                }
+                else if(a[i]==a[j]) {
+                    System.out.println(" found duplicates " + a[i] );
+
+                    // return;
+                }
+            }
+        }
     }
 }
