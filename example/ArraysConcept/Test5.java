@@ -37,7 +37,8 @@ public class Test5 {
         String s1 = Arrays.toString(a);
         System.out.println(s1);
         System.out.println("smallest Value in a Array is + "+ a[0]);
-        System.out.println("Biggest Value in a Array is + "+ a[n-1];
+        System.out.println("Biggest Value in a Array is + "+ a[(n-1)]);
+
 
         for (int i =0 ; i<n-1; i++){
             for (int j = i+1; j<n-1; j++){
@@ -78,9 +79,6 @@ public class Test5 {
                a[rd]=a[i];
             }
         }
-
-
-
 
     }
 }
