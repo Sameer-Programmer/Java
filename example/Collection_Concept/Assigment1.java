@@ -45,5 +45,10 @@ public class Assigment1 {
         Collections.shuffle(list);
         System.out.println(list+"       shuffling done successfully           from 15");
 
+        list.clear(); // to clear elements in a List
+        System.out.println(list+"          from16  All cleared ");
+        System.out.println(list.isEmpty()+"   Now the Collection is Empty         from 17");
+
+
     }
 }
