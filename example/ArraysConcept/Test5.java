@@ -1,6 +1,6 @@
 package ArraysConcept;
 
-        import java.util.Arrays;
+import java.util.Arrays;
 
 /* Agenda to implement
 1.Declaration of Array
@@ -37,9 +37,7 @@ public class Test5 {
         String s1 = Arrays.toString(a);
         System.out.println(s1);
         System.out.println("smallest Value in a Array is + "+ a[0]);
-        System.out.println("Biggest Value in a Array is + "+ a[n-1]);
-
-<<<<<<< HEAD
+        System.out.println("Biggest Value in a Array is + "+ a[n-1];
 
         for (int i =0 ; i<n-1; i++){
             for (int j = i+1; j<n-1; j++){
@@ -54,7 +52,7 @@ public class Test5 {
                 }
             }
         }
-=======
+
         // Let's find Duplicates in an Array
 
         for (int i = 0; i < (n - 1); i++) {
@@ -83,7 +81,7 @@ public class Test5 {
 
 
 
->>>>>>> f720dec6f496a0d39560ab1ca0362d3628db5a16
+
     }
 }
 

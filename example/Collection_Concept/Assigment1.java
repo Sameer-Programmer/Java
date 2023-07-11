@@ -30,6 +30,8 @@ public class Assigment1 {
         System.out.println(list.isEmpty()+"            from 11");      // printing boolean statement true or false
        String s1=list.toString();
         System.out.println(s1+"           Converted to String successfully  from 12");
+        //list.clear();
+      //  System.out.println(list+"13");
 
     }
 }
