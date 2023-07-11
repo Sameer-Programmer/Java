@@ -4,8 +4,8 @@
  * b. Collection interface
  * c. DQueue interface
 
-2.*a.Queue is a Interface from Parent or Root Interface Collection - 
-  *b. Queue  is extended to Dque interface
+2. *a.Queue is a Interface from Parent or Root Interface Collection - 
+   *b. Queue  is extended to Dque interface
 
 
 Now Linked List is having Methods which is from List Interface and Dque Interface
