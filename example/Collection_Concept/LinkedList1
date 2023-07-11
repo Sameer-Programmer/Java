@@ -8,3 +8,12 @@
 
 Now Linked List is having Methods which is from List Interface and Dque Interface
 
+=====================================================================================
+ArrayList
+ 1.when we want to retrive the data or getting the data Frequently we have to go through ArrayList
+ 2. When you want to go insertion and deletion Operations -- we should not go with ArrayList
+ when we do insertion and deletion in Array List - Shifting will be done -- Performance will be more
+  so we should not  prefer insertion and deletion Operations in ArrayList
+
+  Linked List
+  1. When we want to perform  insertion and deletion we will go with Linlked List
