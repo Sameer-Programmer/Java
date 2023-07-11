@@ -30,7 +30,7 @@ Collection Interface contains 3 Child interfaces
 * 3.Queue -----interface
 * Link of Collections in tree Diagram 
 * https://gitmind.com/app/docs/mr2udasa
-* Sheet Regarding the COllection -- https://docs.google.com/spreadsheets/d/1ro2eFXgbJA4cgTgxumR_ODtw6jYMrjGgk0cQH7DlcJQ/edit#gid=0
+* Sheet Regarding the Collection -- https://docs.google.com/spreadsheets/d/1ro2eFXgbJA4cgTgxumR_ODtw6jYMrjGgk0cQH7DlcJQ/edit#gid=0
 
 # List 
 1. List is a Collection, where we store the group of elements we go for List---
