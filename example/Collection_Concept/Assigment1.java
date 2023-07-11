@@ -33,8 +33,11 @@ public class Assigment1 {
         System.out.println(list.isEmpty()+"            from 11");      // printing boolean statement true or false
        String s1=list.toString();
         System.out.println(s1+"           Converted to String successfully  from 12");
-        //list.clear();
-      //  System.out.println(list+"13");
+        Collections.sort(list,Collections.reverseOrder());
+        System.out.println(list+"             reverse order from 13 ");
+        list.clear(); // to clear elements in a List
+      System.out.println(list+"          from14  All cleared ");
+        System.out.println(list.isEmpty()+"   Now the Collection is Empty         from 14");
 
     }
 }
