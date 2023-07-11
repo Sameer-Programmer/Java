@@ -30,7 +30,7 @@ public class Assigment1 {
         //  list.clear();              // Clearing the content
         System.out.println(list+"            from 10");      // After clear
         System.out.println(list.isEmpty()+"            from 11");      // printing boolean statement true or false
-       String s1=list.toString();
+        String s1=list.toString();
         System.out.println(s1+"           Converted to String successfully  from 12");
         Collections.sort(list,Collections.reverseOrder());
         System.out.println(list+"             reverse order from 13 ");
