@@ -2,7 +2,7 @@
  methods  ------inherited from
  * a.List Interface
  * b. Collection interface
- * c. Dueue interface
+ * c. DQueue interface
 
 2.Queue is a Interface from Parent or Root Interface Collection
    Queue  is extended to Dque interface
