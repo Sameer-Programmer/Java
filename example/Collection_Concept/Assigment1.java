@@ -34,9 +34,16 @@ public class Assigment1 {
         System.out.println(s1+"           Converted to String successfully  from 12");
         Collections.sort(list,Collections.reverseOrder());
         System.out.println(list+"             reverse order from 13 ");
-        list.clear(); // to clear elements in a List
+       // list.clear(); // to clear elements in a List
         System.out.println(list+"          from14  All cleared ");
         System.out.println(list.isEmpty()+"   Now the Collection is Empty         from 14");
+
+
+        /*1. for Shuffling
+         we have one more method  shuffle - in Collections Class in java
+        * Collections.shuffle() */
+        Collections.shuffle(list);
+        System.out.println(list+"       shuffling done successfully           from 15");
 
     }
 }
