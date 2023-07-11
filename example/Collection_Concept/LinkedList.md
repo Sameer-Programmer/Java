@@ -9,4 +9,4 @@
 
 
 Now Linked List is having Methods which is from List Interface and Dque Interface
-![image](https://github.com/Sameer-Programmer/Java/assets/115461857/6e956431-9df4-4d6f-b85e-3b6783b043de)
+![image](https://github.com/Sameer-Programmer/Java/assets/115461857/136a700e-3b31-4ac3-8b17-31feb5543c2f)
