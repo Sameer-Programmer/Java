@@ -1,6 +1,7 @@
 package Collection_Concept;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Assigment1 {
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Assigment1 {
         list.add("1"); // Duplicates Allowed
         System.out.println(list.size()       +"                                  size from 1");
         System.out.println(list +"            from 2");
+        Collections.sort(list);
+        System.out.println(list+"        collections");
         list.set(1,"Dhoni");
         System.out.println(list+"            from 3");
         list.set(1,"India");
