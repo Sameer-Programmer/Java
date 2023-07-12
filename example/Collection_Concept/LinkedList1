@@ -78,7 +78,7 @@ removelast()-------------------This will Remove  the Element in the last Positio
 getFirst()--------------------This will get the Element from the first Position
 getLast()----------------------This will get the Element from the last Position
 
-
+Imp=Note:  Sorting are Possible in Linked list only we have same datatype
 
 
 

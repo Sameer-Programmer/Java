@@ -1,10 +1,88 @@
 1.Linked List is a Class which is having
- methods  ------inherited from a.List Interface
-                               b. Collection interface
-                               c. Dueue interface
+  methods  ------inherited from a.Collection interface ---------------Root or Parent
+                               b. List Interface------------------------Child of Collection interface
+                               c. DQue interface-----------------------child from Queue interface
 2.Queue is a Interface from Parent or Root Interface Collection
-   Queue  is extended to Dque interface
+  Queue  is extended to Dque interface
 
-
+3.Linked lists are a dynamic data structure, which means that they can grow and shrink as needed. This makes them well-suited for applications where the size of the data set is not known in advance.
+4.Linked lists are not as efficient as arrays for accessing elements by index. However, they are more efficient for insertion and deletion of elements.
+5.Linked lists can be used to implement a variety of data structures, such as stacks, queues, and linked lists themselves
 Now Linked List is having Methods which is from List Interface and Dque Interface
+
+=====================================================================================
+ArrayList -----------------------only to get the elements --- good
+ 1.when we want to retrive the data or getting the data Frequently we have to go through ArrayList
+ 2. When you want to go insertion and deletion Operations -- we should not go with ArrayList
+ when we do insertion and deletion in Array List - Shifting will be done -- Performance will be more
+  so we should not  prefer insertion and deletion Operations in ArrayList
+
+
+  Note :  Storage of values in ArrayList is one After the Other Consecutively
+
+  Linked List ------------------mainly for insertion and deletion--- Good
+ 1. When we want to perform  insertion and deletion we will go with Linlked List
+ 2. Elements Stored in Linked List will be stored Randomly and connected with eachother through address
+ 3. In Linked List Every Element is called as Node.
+ 4. Every Node is having 3 parts ---------.1. first part is representing the Previous Element Address (Left side)
+                                           2. Second Part is Having the Element
+                                           3. Third part is  representing the Next Element Address (Right side)
+  5. This is How Linked List is Organised
+  6. Generally when we add a New Element in a Linked List -- New Node is created , Value is stored and Nodes will link each Other
+  7.when we delete any Element , nodes will dis-connect and link will  each other.  The deleted will go into garbage Collection
+
+# Limitation of linked List
+1.we should not prefer  linked List when we have more number of retrivals
+Because it has to Navigate from index 0 only ,
+then it has to travel to that address wich the user have given -- example if you tell get(index 100)---
+then it has to travel from index Zero to 100
+to get that -- Performance is More
+
+Note: Linked List is preferred Mostly to develop stacks and Queues
+
+1.Stack Means ------------------- its Like a pushing Luggage  Bag or Cotton Bag -----------first in -----------LastOut
+2.Queue -------------------------- Queue in bank or  Vote in Pooling Booth ---------Firstin -------------FirstOut
+
+These two Concepts are implmented with different Methods inside the Linked List
+
+
+When we go with Linked List -----------------1. insertion is allowed
+                                             2. Duplicates are Allowed
+                                             3. Insertion and Deletion Operation
+                                             4 Nulls also Accepted
+
+Methods Available in Linked List
+
+1. Add (x) -------------This element will be stored at the End of the Linked List
+2. Add(index 1 , y) -------At the Parrticular place index 1 -- y is going to add -------insertion is achived
+3. addAll(Collection)--------if you want to add any Collection of ArrayList or linkedlist we can add by this Method
+4. remove(x) ------------------to remove partcular element or Object
+5. remove(index) -------------To Remove Element of partcular Index
+6.removeall(colletion)-----------To Remove Particular Collection
+7.linkedlist.get(index) ---------To get the Element at partcular index
+8.linkedlist.get(x) -------------To get the Particular Element
+9.linkedlist.set(index ,object) ---------To Replace current object with New One
+
+
+If we want to perform any Sorting and schuffling - we can use Collections Class ------from Java
+10. Collections.sort()
+11. Collections.schuffle()
+
+Special Methods Available in Linked List which are Available to implement Stacks and Queue
+=========================================================================================
+
+addFirst(object) ---------- This will add the Element in the first Position
+addLast(Object) ------------This will add the Element in the last Position
+removeFirst() ---------------This will Remove  the Element in the first Position
+removelast()-------------------This will Remove  the Element in the last Position
+getFirst()--------------------This will get the Element from the first Position
+getLast()----------------------This will get the Element from the last Position
+
+Imp=Note:  Sorting are Possible in Linked list only we have same datatype
+
+
+
+
+
+
 
