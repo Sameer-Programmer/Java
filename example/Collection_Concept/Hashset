@@ -1,0 +1,50 @@
+---To Represent Group of Elements ------
+Conditions
+
+1.-Insertion Order is Not preserved
+1.Duplicates are Not allowed
+
+we Have a concept called Hashcode -- by this concept we will be inserted elements into Hashset
+Advantage
+ Searching will be faster
+ There is no concept of index in Hashset -- Elements are arranged in Random order
+ Heterogenious will be Supported
+ Nulls also supported
+ ===============================================
+ How many Ways We can Create Hashset Object
+Declaration of Hashset
+Hashset hashset = new Hashset();
+
+By default it will allocate 16 Allocations ----intial size is 16
+
+we have one more thing In Hashset ----------Loadfactor or we can call it has  Fill ratio
+Fill ratio of Hashmap has Default value --- 0.75 -- called percentage
+
+when ever storing Elements  will reach  to 75 percentage ,
+New Object is Created in Hashset with new storage , the Old Object will reach to Garbage collection
+
+we can configure intial size and Fill ratio -- if we want more and Justify
+Hashset hs = new Hashset(100);      // Here am Providing initial size as 100;
+Hashset hs = new  Hashset(100, 0.90); // Here am Providing initial size as 100 and Fill ratio as 0.90;
+ The above is for Heterogenious data
+
+ To store  elements for Homogenious Data
+ Hashset <Integers> hashset  = new Hashset<Integers>();
+
+ Special - Methods     No Special methods in Hashset
+  Only the methods present in set interface only present in Hashset ---- But No special methods
+
+add (value)
+addAll(collection)
+remove(value)
+removeAll(collection)
+ contain(object)
+ containsAll( group of Objects)
+ isEmpty()
+
+ Note: Sorting and shuffling not directly Possible in Hashset  because Here Elements are in Random Order
+ Continue from 17 :28 -- pawan class -- part6
+
+
+
+
