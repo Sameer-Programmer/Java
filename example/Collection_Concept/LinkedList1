@@ -5,7 +5,9 @@
 2.Queue is a Interface from Parent or Root Interface Collection
   Queue  is extended to Dque interface
 
-
+3.Linked lists are a dynamic data structure, which means that they can grow and shrink as needed. This makes them well-suited for applications where the size of the data set is not known in advance.
+4.Linked lists are not as efficient as arrays for accessing elements by index. However, they are more efficient for insertion and deletion of elements.
+5.Linked lists can be used to implement a variety of data structures, such as stacks, queues, and linked lists themselves
 Now Linked List is having Methods which is from List Interface and Dque Interface
 
 =====================================================================================
