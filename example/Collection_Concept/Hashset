@@ -49,6 +49,10 @@ isEmpty() ------------------it will give output as True or False
 
  //Union ,Intersection (common Elements),difference
 
+ union -------method Addall(collection)
+ Intersection ---method retainall(collection)
+ difference-----set1.removeall(set2)
+
 // Hashet1 = [1,2,3,4,5]
 // Hashset 2 = [3,4,5]
 set1.addall(set2);
