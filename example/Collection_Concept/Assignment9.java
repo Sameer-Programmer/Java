@@ -41,8 +41,10 @@ public class Assignment9 {
         HashSet nh = new HashSet();
         nh.add(1000);
         nh.add(hs);
-        System.out.println(nh+"                  hs-7");    // Added one new Element , complete hashset element in oneMore Hashset-nh
-        System.out.println(nh.removeAll(hs)+"                  hs-8"); // Remove all method return only true or false
+        System.out.println(nh+"                  hs-7");
+        // Added one new Element , complete hashset element in oneMore Hashset-nh
+        nh.removeAll(nh);       // Remove all method return only true or false
+        System.out.println(nh);
 
 
 

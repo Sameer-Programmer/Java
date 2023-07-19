@@ -37,7 +37,7 @@ Hashset hs = new  Hashset(100, 0.90); // Here am Providing initial size as 100 a
 add (value)
 addAll(collection)
 remove(value)
-removeAll(collection)
+removeAll(collection)----------it will return true or false
 contain(object) -----------------it will give output as True or False
 containsAll( group of Objects)--
 isEmpty() ------------------it will give output as True or False
