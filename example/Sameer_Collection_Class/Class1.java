@@ -12,6 +12,8 @@ public class Class1 {
         System.out.println(ap.contains("Vizag"));
         System.out.println(ap.size());
 
+
+
         HashSet ts = new HashSet();
         ts.add("Hyderabad");
         ts.add(33);
