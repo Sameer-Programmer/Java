@@ -1,6 +1,6 @@
 package Collection_Concept;
 
-public class Assigment6 {
+public class Assignment6 {
     public static void main(String[] args) {
         byte b = 1;
         int c = b;    // conversion ---- upcasting

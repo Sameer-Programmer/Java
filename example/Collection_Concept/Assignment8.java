@@ -3,7 +3,7 @@ package Collection_Concept;
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class Assigment8 {
+public class Assignment8 {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.add(" Mango");

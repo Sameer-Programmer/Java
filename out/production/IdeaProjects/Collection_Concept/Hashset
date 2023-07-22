@@ -47,8 +47,17 @@ isEmpty() ------------------it will give output as True or False
 
  Lets -- see -- How Hashset Method Works
 
- Continue from 17 :28 -- pawan class -- part6
+ //Union ,Intersection (common Elements),difference
 
+ union -------method Addall(collection)
+ Intersection ---method retainall(collection)
+ difference-----set1.removeall(set2)
+
+// Hashet1 = [1,2,3,4,5]
+// Hashset 2 = [3,4,5]
+set1.addall(set2);
+print set1--union;
+Union: [1,2,3,4,5]     // duplicates will be not allowed
 
 
 
