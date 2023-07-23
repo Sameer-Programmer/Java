@@ -27,14 +27,26 @@ public class Class_2 {
        ap.retainAll(ts);
        System.out.println(ap+"        Commom Elements");
 
-
        ap.containsAll(ts);
         System.out.println(ap.containsAll(ts));
 
+        ap.removeAll(ts);
+        System.out.println(ap);
 
+        HashSet in  = new HashSet();
+        in.add("karnataka");
+        in.add("Kerala");
+        in.add("Andhra Pradesh");
+        in.add("Telangana");
+        System.out.println(in);
 
+        HashSet ch  = new HashSet();
+        ch.add("beijing");
+        ch.addAll(in);
+        System.out.println(ch);
 
-
-
+        // Difference
+        ch.removeAll(in);
+        System.out.println(ch);
     }
 }
