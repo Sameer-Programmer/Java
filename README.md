@@ -26,7 +26,7 @@ class name Starts with the Abstract keyword
 It Contains Abstract methods 
 we can not create objects with the class - we can create Objects with the help of subclass 
 # Encapsulation 
-Encapsulation is achieved by making class Variables  private - To access these Variables in other classes we through to use get() method and to set the Values we have to use  the set() Method.
+Encapsulation is achieved by making class Variables  private - To access these Variables in other classes we use get() method and to set the Values we have to use  the set() Method.
 # Strings
 1. length of the string
 2. concatenation
@@ -45,8 +45,8 @@ To differentiate local and Instance variables - Especially when using a Construc
 4. suppose we have the method, Constructor  in the parent class, To implement this  we should write the Constructor part first, then only we have to implement the method.
   
 #Collection
-https://mm.tt/app/map/2871528199?t=1ox7ICkZXn
+1. https://mm.tt/app/map/2871528199?t=1ox7ICkZXn
 #Link of Collections in Tree Diagram
-https://gitmind.com/app/docs/mr2udasa
+2. https://gitmind.com/app/docs/mr2udasa
 #Sheet Regarding the Collection --
-https://docs.google.com/spreadsheets/d/1ro2eFXgbJA4cgTgxumR_ODtw6jYMrjGgk0cQH7DlcJQ/edit#gid=0
+3. https://docs.google.com/spreadsheets/d/1ro2eFXgbJA4cgTgxumR_ODtw6jYMrjGgk0cQH7DlcJQ/edit#gid=0
