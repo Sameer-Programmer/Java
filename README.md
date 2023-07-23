@@ -1,17 +1,17 @@
 # Java
 Basic-Core -Java Programs
-1.Simple -Hello World Programme,
-2.variables,
+1. Simple -Hello World Programme,
+2. variables,
 3.DataTypes, 
-4.Declaration, 
-5.Initialization 
-6.conditional Statements
-7.Loops- for, while, do-while 
-8.Jump statements - continue, break
-9.class, method, Objects 
-10.Method Overloading 
-11.Constructor
-12.Constructor -Overloading 
+4. Declaration, 
+5. Initialization 
+6. conditional Statements
+7. Loops- for, while, do-while 
+8. Jump statements - continue, break
+9. class, method, Objects 
+10. Method Overloading 
+11. Constructor
+12. Constructor -Overloading 
 # inheritance 
 1.inheritance - single 
 2.inheritance - Multi-level 
@@ -44,3 +44,5 @@ To differentiate local and Instance variables - Especially when using a Construc
 3. we can super-Keyword to call the Constructor of Superclass to immediate subclass by signature super ();-- we should use this one inside the Subclass Constructor only
 4. suppose if we have the method , Constructor  in the parent class , To implement these  we should write Constructor part first , them only we have to implement method 
   
+#Collection
+https://mm.tt/app/map/2871528199?t=1ox7ICkZXn
