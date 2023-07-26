@@ -25,11 +25,11 @@ public class Class8 {
 
         // Entry_ Methods
 
-        /*1.	To print Key and Value line by line we will go with For loop
+        /*1.To print Key and Value line by line we will go with For loop
         // 1)map.entrySet() = Method
            2)entry = variable
            3) Map.Entry = Data _Type
-           4)  :  represents in                         */
+           4)  :  represents in */
 
         for (Map.Entry entry: map.entrySet()){
             //Datatype  variable   MMethod
@@ -42,8 +42,6 @@ public class Class8 {
         System.out.println(map.keySet());
         System.out.println(map.values());
         System.out.println(map.entrySet()+"        all entries in set");
-
-
 
         HashMap ap = new HashMap();
         ap.putAll(map);
