@@ -1,7 +1,6 @@
 package Sameer_Collection_Class;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 
 /* 1.Convert array into Array  List
@@ -9,7 +8,7 @@ import java.util.HashSet;
 3.convert Hashset into Array List
 4.Convert Array List into Array
  */
-public class Class_4 {
+public class Class4 {
     public static void main(String[] args) {
         int a [] = {1, 1,2, 3, 4, 5, 6,6, 7, 8, 9, 10}; // Array
         // length of the array

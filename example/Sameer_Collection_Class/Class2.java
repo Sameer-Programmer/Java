@@ -2,7 +2,7 @@ package Sameer_Collection_Class;
 
 import java.util.HashSet;
 
-public class Class_2 {
+public class Class2 {
     public static void main(String[] args) {
         HashSet ap = new HashSet();
         ap.add("apple");

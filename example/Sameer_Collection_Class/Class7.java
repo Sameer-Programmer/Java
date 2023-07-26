@@ -2,7 +2,7 @@ package Sameer_Collection_Class;
 
 import java.util.PriorityQueue;
 
-public class class_7 {
+public class Class7 {
     public static void main(String[] args) {
         PriorityQueue queue = new PriorityQueue<>();
         queue.add("sameer");
