@@ -2,7 +2,7 @@ package Sameer_Collection_Class;
 // Example of HashSet
 import java.util.HashSet;
 
-public class H_HashSet1{
+public class Class1{
     public static void main(String[] args) {
         HashSet ap = new HashSet();
         ap.add("Vizag");
@@ -11,8 +11,6 @@ public class H_HashSet1{
         System.out.println(ap.isEmpty());
         System.out.println(ap.contains("Vizag"));
         System.out.println(ap.size());
-
-
 
         HashSet ts = new HashSet();
         ts.add("Hyderabad");
@@ -29,6 +27,5 @@ public class H_HashSet1{
         System.out.println(in);
         in.removeAll(in);
         System.out.println(in);
-
     }
 }
