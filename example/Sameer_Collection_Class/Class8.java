@@ -32,7 +32,7 @@ public class Class8 {
            4)  :  represents in */
 
         for (Map.Entry entry: map.entrySet()){
-            //Datatype  variable   MMethod
+            //Datatype  variable   Method
             System.out.println(entry.getKey()+"    "+entry.getValue());
         }
         System.out.println("above  are from the Entry set Method");

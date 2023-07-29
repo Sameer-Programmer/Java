@@ -1,5 +1,5 @@
 package Sameer_Collection_Class;
-
+// Hash Table Example
 import java.util.Hashtable;
 import java.util.Map;
 
@@ -24,15 +24,19 @@ public class Class9 {
         System.out.println(hashtable.keySet()); // All keys
         System.out.println(hashtable.values());
         System.out.println(hashtable.keys());
+
+        // Let's Print through for Loop - Using Method EntrySet()
+         /*1.To print Key and Value line by line we will go with For loop
+        // 1)map.entrySet() = Method
+           2)entry = variable
+           3) Map.Entry = Data _Type
+           4)  :  represents in */
         for(Map.Entry entry:hashtable.entrySet()){
+            //Datatype  variable   Method
             System.out.println(entry.getKey()+"         "+entry.getValue());
         }
         hashtable.put(7,"Dog");
         System.out.println(hashtable);
-
-
-
-
 
     }
 }
