@@ -1,8 +1,8 @@
 package Sameer_Collection_Class;
-
+// Example of HashSet
 import java.util.HashSet;
 
-public class Class1 {
+public class H_HashSet1{
     public static void main(String[] args) {
         HashSet ap = new HashSet();
         ap.add("Vizag");
