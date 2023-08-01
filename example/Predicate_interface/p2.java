@@ -4,10 +4,20 @@ import java.util.function.Predicate;
 
 public class p2 {
     public static void main(String[] args) {
-        Predicate <Integer> predicate = i -> (i>10);
-        System.out.println(predicate.test(1));
+        Predicate <String> predicate = string ->(string.length()<10);
 
-        Predicate <String> stringPredicate = s -> (s.length()>10);
-        System.out.println(stringPredicate.test("Lion"));
+        String a[] = {"john", "Lion","Tiger", "Elephant"};
+        for (String forloopvariable : a){
+          //  if(predicate.test(forloopvariable)){
+//                System.out.println(forloopvariable);
+//            }
+            //or
+            if(forloopvariable.length()<10){
+                System.out.println(forloopvariable);
+            }
+
+        }
+        // Note : To check single condition we may go with if forloopvariable.length()<10)
+        // for Multiple Condition we prefer predicate.test(forloopvariable)
     }
 }
