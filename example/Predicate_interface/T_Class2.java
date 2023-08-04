@@ -16,21 +16,19 @@ class Boys{
 public class T_Class2 {
     public static void main(String[] args) {
 
-        Predicate <Boys> predicate4 = e->(e.name.length() <5 && e.Gender.length() <5);
+        Predicate<Boys> predicate4 = e -> (e.name.length() <= 5 && e.Gender.length() < 5);
 
-
-        ArrayList list = new ArrayList<>();
-        list.add(new Boys("Prakash",24,"Male"));
-        list.add(new Boys("Sreyas",22,"Male"));
-        list.add(new Boys("Siddu",21,"Male"));
+        ArrayList<Boys> list = new ArrayList<Boys>();
+        list.add(new Boys("Prakash", 24, "Male"));
+        list.add(new Boys("Sreyas", 22, "Male"));
+        list.add(new Boys("Siddu", 21, "Male"));
 
 
         for (Boys e : list) {
             if (predicate4.test(e)) {
                 System.out.println(e.name + "   " + e.Gender);
             }
+
         }
-
-
     }
 }
