@@ -24,7 +24,7 @@ public class T_Class2 {
         list.add(new TataMotors("Nexon","Red",7.74,2023));
         list.add(new TataMotors("punch","white",8.74,2022));
         list.add(new TataMotors("Tiago","blue",22.74,2021));
-        list.add(new TataMotors("Altroz","black",13.74,2022));
+        list.add(new TataMotors("Altroz","black",13.74,2023));
         for (TataMotors items :list) {
             if(predicate.test(items)) {
                 System.out.println(items.Model +"     "+items.Price+"  "+items.Car);
