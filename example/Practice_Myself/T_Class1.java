@@ -4,7 +4,9 @@ import java.util.function.Predicate;
 
 public class T_Class1 {
     public static void main(String[] args) {
+        // Declaration of Predicate for Intezers
         Predicate <Integer> predicate = integer -> (integer>10); // Predicate is an Default functional interface
+
        boolean b =  predicate.test(10);
         System.out.println(b);
          Predicate <String> predicate2 = string -> (string.length()>5);
@@ -18,10 +20,7 @@ public class T_Class1 {
             if(predicate3.test(object)){
                 System.out.println(object);
             }
-
         }
-
-
 
     }
 }
