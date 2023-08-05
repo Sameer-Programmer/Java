@@ -25,8 +25,8 @@ Run time Polymorphism
 class name Starts with the Abstract keyword 
 It Contains Abstract methods 
 we can not create objects with the class - we can create Objects with the help of subclass 
-# Encapsulation 
-Encapsulation is achieved by making class Variables  private - To access these Variables in other classes we use get() method and to set the Values we have to use  the set() Method.
+# Self_Java_Practice.Encapsulation 
+Self_Java_Practice.Encapsulation is achieved by making class Variables  private - To access these Variables in other classes we use get() method and to set the Values we have to use  the set() Method.
 # Strings
 1. length of the string
 2. concatenation
