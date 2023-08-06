@@ -3,7 +3,7 @@ package ConceptWrapper;
 public class Test1 {
     public static void main(String[] args) {
         int i = 10; // Primitive Data type
-        Integer n = new Integer(i);  // Object // Boxing // Primitive data type Stored in Object
+        Integer n = new Integer(i);  // Boxing // Primitive data type Stored in Object
         Integer value = i; // AutoBoxing
 
         System.out.println(n+"              Boxing");  // Printing Object
