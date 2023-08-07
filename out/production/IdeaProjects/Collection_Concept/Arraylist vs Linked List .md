@@ -11,8 +11,8 @@ Title: Linked List and its Methods
    - Linked List is a class that inherits methods from different interfaces.
    - The inheritance hierarchy is as follows:
      - a. Linked List class inherits methods from the Collection interface (Root or Parent).
-     - b. Linked List class implements the List interface (Child of Collection interface).
-     - c. Linked List class implements the Deque interface (Child of Queue interface).
+     - b. Linked List class implements the List interface (Self_Java_Practice.Child of Collection interface).
+     - c. Linked List class implements the Deque interface (Self_Java_Practice.Child of Queue interface).
 
 3. ArrayList vs. Linked List:
    - ArrayList is suitable for frequent retrieval of elements but not for frequent insertion or deletion.

@@ -1,6 +1,6 @@
 1.Linked List is a Class which is having
   methods  ------inherited from a.Collection interface ---------------Root or Parent
-                               b. List Interface------------------------Child of Collection interface
+                               b. List Interface------------------------Self_Java_Practice.Child of Collection interface
                                c. DQue interface-----------------------child from Queue interface
 2.Queue is a Interface from Parent or Root Interface Collection
   Queue  is extended to Dque interface
