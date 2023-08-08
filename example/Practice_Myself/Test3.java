@@ -5,7 +5,7 @@ import java.util.function.Function;
 public class Test3 {
     public static void main(String[] args) {
         Function <Integer , Integer> f1 = i->i*i;
-      int n1=   f1.apply(2);
+        int n1=   f1.apply(2);
         System.out.println(n1);
 
 
