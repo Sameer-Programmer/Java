@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Race1",
+            "request": "launch",
+            "mainClass": "Race1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test4",
+            "request": "launch",
+            "mainClass": "Test4",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
             "name": "Test37",
             "request": "launch",
             "mainClass": "Test37",
