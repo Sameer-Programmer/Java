@@ -1,9 +1,13 @@
+package Practice_Myself;
+
 import java.util.ArrayList;
 import java.util.function.Function;
 
  class Milk {
     int Fatmilk;
     int Nofatmilk;
+
+
 Milk(int Fatmilk, int Nofatmilk){
 this.Fatmilk = Fatmilk;
 this.Nofatmilk = Nofatmilk;
