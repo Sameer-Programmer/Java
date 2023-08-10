@@ -43,7 +43,9 @@ To differentiate local and Instance variables - Especially when using a Construc
 2. we can use the super keyword  to call in the Parent class method to the subclass method - we should use it inside the subclass method only.
 3. we can super-Keyword to call the Constructor of Superclass to immediate subclass by signature super ();-- we should use this one inside the Subclass Constructor only
 4. suppose we have the method, Constructor  in the parent class, To implement this  we should write the Constructor part first, then only we have to implement the method.
-  
+
+  # Encapsulation
+  Encapsulation in Java refers to integrating data (variables) and code (methods) into a single unit. In encapsulation, a class's variables are hidden from other classes and can only be accessed by the methods of the class in which they are found.
 
 1.#Collection 
 https://mm.tt/app/map/2871528199?t=1ox7ICkZXn
