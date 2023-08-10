@@ -2,7 +2,7 @@
 Basic-Core -Java Programs
 1. Simple -Hello World Programme,
 2. variables,
-3.DataTypes, 
+.DataTypes, 
 4. Declaration, 
 5. Initialization 
 6. conditional Statements
