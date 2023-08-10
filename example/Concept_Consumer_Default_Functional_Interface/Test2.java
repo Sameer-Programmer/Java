@@ -46,12 +46,5 @@ public class Test2 {
             int bonus = f1.apply(lsr);
             System.out.println(p1.test(bonus)+"              yes bonus is above 3k  "+lsr.name);
         }
-
-
-
-
-
-
-
     }
 }
