@@ -25,8 +25,9 @@ Run time Polymorphism
 class name Starts with the Abstract keyword 
 It Contains Abstract methods 
 we can not create objects with the class - we can create Objects with the help of subclass 
-# Self_Java_Practice.Encapsulation 
+# Encapsulation 
 Self_Java_Practice.Encapsulation is achieved by making class Variables  private - To access these Variables in other classes we use get() method and to set the Values we have to use  the set() Method.
+Encapsulation in Java refers to integrating data (variables) and code (methods) into a single unit. In encapsulation, a class's variables are hidden from other classes and can only be accessed by the methods of the class in which they are found.
 # Strings
 1. length of the string
 2. concatenation
@@ -44,8 +45,8 @@ To differentiate local and Instance variables - Especially when using a Construc
 3. we can super-Keyword to call the Constructor of Superclass to immediate subclass by signature super ();-- we should use this one inside the Subclass Constructor only
 4. suppose we have the method, Constructor  in the parent class, To implement this  we should write the Constructor part first, then only we have to implement the method.
 
-  # Encapsulation
-  Encapsulation in Java refers to integrating data (variables) and code (methods) into a single unit. In encapsulation, a class's variables are hidden from other classes and can only be accessed by the methods of the class in which they are found.
+
+  
 
 1.#Collection 
 https://mm.tt/app/map/2871528199?t=1ox7ICkZXn
