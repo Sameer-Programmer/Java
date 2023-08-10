@@ -28,7 +28,8 @@ we can not create objects with the class - we can create Objects with the help o
 # Encapsulation 
 
 Encapsulation in Java refers to integrating data (variables) and code (methods) into a single unit. In encapsulation, a class's variables are hidden from other classes and can only be accessed by the methods of the class in which they are found.
-*Encapsulation is achieved by making class Variables  private - To access these Variables in other classes we use get() method and to set the Values we have to use  the set() Method.
+
+* 1. Encapsulation is achieved by making class Variables  private - To access these Variables in other classes we use get() method and to set the Values we have to use  the set() Method.
 # Strings
 1. length of the string
 2. concatenation
