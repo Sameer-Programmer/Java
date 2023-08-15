@@ -48,14 +48,18 @@ To differentiate local and Instance variables - Especially when using a Construc
 4. suppose we have the method, Constructor  in the parent class, To implement this  we should write the Constructor part first, then only we have to implement the method.
 
 
-  
+1. Java Notes
+   https://docs.google.com/spreadsheets/d/1yQra_O2uOo3On3jvUM8bVSVePSLzQL0DBcUvV_A_iCQ/edit#gid=1827895798
 
-1.#Collection 
+2.#Collection 
 https://mm.tt/app/map/2871528199?t=1ox7ICkZXn
 
-2.#Link of Collections in Tree Diagram
+3.#Link of Collections in Tree Diagram
  https://gitmind.com/app/docs/mr2udasa
 
 
-3#Sheet Regarding the Collection 
+4#Sheet Regarding the Collection 
 https://docs.google.com/spreadsheets/d/1ro2eFXgbJA4cgTgxumR_ODtw6jYMrjGgk0cQH7DlcJQ/edit#gid=0
+
+
+
