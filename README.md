@@ -50,7 +50,8 @@ To differentiate local and Instance variables - Especially when using a Construc
 
 1. Java Notes
    https://docs.google.com/spreadsheets/d/1yQra_O2uOo3On3jvUM8bVSVePSLzQL0DBcUvV_A_iCQ/edit#gid=1827895798
-
+2. OOps Concept
+   https://docs.google.com/spreadsheets/d/1FTeazzbxv6tBTvankc0MmlphyAK0c6D9TVodsrgaE2s/edit#gid=0
 2.#Collection 
 https://mm.tt/app/map/2871528199?t=1ox7ICkZXn
 
