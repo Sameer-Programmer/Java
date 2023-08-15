@@ -1,16 +1,17 @@
 package Concept_Consumer_Default_Functional_Interface;
 
 import java.util.ArrayList;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
 /*
 * 1. Caliculate the Bonus of the Employee
-* 2.
-* 3. Verify bonus value is greater than 5000 we can print all the details of an Employee
+* 2.Verify bonus value is greater than 5000 or not
+* 3. if Condition becomes true  print all the details of an Employee
 * */
 class LSR {
-    String name; int salary;int Dob;
+    String name;           int salary;        int Dob;
     LSR(String name, int salary, int Dob) { this.name = name; this.salary = salary; this.Dob = Dob;}
 }
 
@@ -28,23 +29,25 @@ public class Test2 {
         list.add(new LSR("Lakshman",5000,1998));
         list.add(new LSR("Rohit",50000,1994));
 
+        Function <LSR , Integer> f1 = agent -> (agent.salary *10)/100;   // To caliculate Bonus
+        Predicate <Integer> p1 = agent-> agent >2000;   // To verify bonus is greter than 200;
+        Predicate <Integer>p2 = agent->  agent >1995;
 
-        Function <LSR, Integer> f1 = lsr -> (lsr.salary * 10/100);
+        Consumer <LSR> c1  = agent -> {
+            System.out.println(agent.name+"    "+agent.salary+"       "+agent.Dob);
+        };
 
-        for (LSR lsr:list) {
-            int bonus = f1.apply(lsr);
-            System.out.println(lsr.name+"   " +"Bonus is      "+ bonus );
-            System.out.println("Total Salary will be    "+(lsr.salary +bonus));
-            if(bonus >3000){
-                System.out.println("yes bonus is above 3k  "+lsr.name);
+        for (LSR box :list){
+            int bonus =  f1.apply(box);
+            if(p1.test(bonus)){
+
+                c1.accept(box);
             }
         }
-
-        Predicate <Integer> p1 = bonus -> (bonus >  2000);
-
-        for(LSR lsr :list){
-            int bonus = f1.apply(lsr);
-            System.out.println(p1.test(bonus)+"              yes bonus is above 3k  "+lsr.name);
+        for (LSR box :list){
+          if ( p2.test(box.Dob)) {
+              c1.accept(box);
+          }
         }
     }
 }
