@@ -1,5 +1,5 @@
 # Collections
-Definition-- Group of objects -- is called Collection
+Definition-- Group of objects is called Collection
 Self_Java_Practice.A collection is a single Entity - Representing Multiple Objects
 
 # Collection FrameWork
