@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test12",
+            "request": "launch",
+            "mainClass": "Practice_Myself.Test12",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Race1",
+            "request": "launch",
+            "mainClass": "Race1",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test4",
+            "request": "launch",
+            "mainClass": "Test4",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test37",
+            "request": "launch",
+            "mainClass": "Test37",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test16",
+            "request": "launch",
+            "mainClass": "Test16",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test8",
+            "request": "launch",
+            "mainClass": "Test8",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Test36",
+            "request": "launch",
+            "mainClass": "Test36",
+            "projectName": "Java_4e35e324"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
