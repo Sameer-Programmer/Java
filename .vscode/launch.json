@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test1",
+            "request": "launch",
+            "mainClass": "Project_Package_1.Test1",
+            "projectName": "Sameer_Self_Learning_FEB"
+        },
+        {
+            "type": "java",
             "name": "Test12",
             "request": "launch",
             "mainClass": "Practice_Myself.Test12",
